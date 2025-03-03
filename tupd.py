@@ -1,0 +1,15 @@
+names = ("noo","arey","yaaaaaas")
+print("noo" in names)
+print(sorted(names,key=str.lower))
+print(names)
+newtuple = names + ("cero",)
+print(newtuple)
+dog = {"name":"spot","color":"black", "Age" : 5}
+print(dog.popitem())
+print(dog.get("age"))
+print("color" in dog)
+dog["woof"]="ruff"
+cat = dog.copy()
+print(list(dog.keys()))
+print(list(dog.values()))
+print(cat)
